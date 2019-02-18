@@ -1,7 +1,9 @@
 def my_collect (array) {|name| name.split(' ').first}
   first=[]
-    array.each do |person|
-      first<<yield(person)
+  i=0
+    while i< array.size
+      first<<yield(array[i])
+      i+=1
     end
   first
 end
