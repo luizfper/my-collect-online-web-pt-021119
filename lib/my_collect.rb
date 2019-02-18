@@ -1,4 +1,4 @@
-def my_collect (array) {|name| name.split(' ').first}
+def my_collect (array) {|name|name.split(' ').first}
   first=[]
   i=0
     while i< array.size
